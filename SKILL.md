@@ -1,21 +1,21 @@
 ---
 name: atomic-design
-description: React component architecture guide following Atomic Design. ALWAYS USE in React/Next.js/Astro projects to create components, organize folder structure, or decide where to place new components. Also use to ANALYZE existing projects and verify correct Atomic Design implementation, detecting violations like logic in components, incorrect classification (atom vs molecule vs organism), or lack of separation of concerns. Defines atoms/molecules/organisms hierarchy, internal structure, and rules for hooks, contexts, and types.
+description: React component architecture guide following Atomic Design. ALWAYS USE in any React project (Vite, Next.js, CRA, Remix, Astro, etc.) to create components, organize folder structure, or decide where to place new components. Also use to ANALYZE existing projects and verify correct Atomic Design implementation, detecting violations like logic in components, incorrect classification (atom vs molecule vs organism), or lack of separation of concerns. Defines atoms/molecules/organisms hierarchy, internal structure, and rules for hooks, contexts, and types.
 ---
 
 # Atomic Design - Component Architecture
 
-Methodology based on [Brad Frost's Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/) adapted for modern React frameworks.
+Methodology based on [Brad Frost's Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/) adapted for React (any framework: Vite, Next.js, CRA, Remix, Astro, etc.).
 
 ## Framework Mapping
 
-| Atomic Design | Framework (Next.js/Astro) |
+| Atomic Design | In any React project      |
 |---------------|---------------------------|
 | Atoms         | `components/atoms/`       |
 | Molecules     | `components/molecules/`   |
 | Organisms     | `components/organisms/`   |
-| Templates     | Framework Layouts         |
-| Pages         | Router Route Pages        |
+| Templates     | Layouts (framework-specific) |
+| Pages         | Route / page components   |
 
 ## Directory Structure
 

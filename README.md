@@ -2,7 +2,7 @@
 
 **Author:** Iván López Hdez · [ivanlopezdev.es](https://ivanlopezdev.es) · [@ivanlhz](https://github.com/ivanlhz)
 
-React component architecture guide following Atomic Design principles, adapted for modern frameworks (Next.js, Astro).
+React component architecture guide following Atomic Design principles. Use it in **any** React project (Vite, Next.js, CRA, Remix, Astro, etc.).
 
 ## What's included
 
