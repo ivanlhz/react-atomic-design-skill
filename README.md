@@ -1,5 +1,7 @@
 # Atomic Design Skill
 
+**Author:** Iván López Hdez · [ivanlopezdev.es](https://ivanlopezdev.es) · [@ivanlhz](https://github.com/ivanlhz)
+
 React component architecture guide following Atomic Design principles, adapted for modern frameworks (Next.js, Astro).
 
 ## What's included
@@ -121,4 +123,4 @@ python scripts/analyze_structure.py ./src
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
