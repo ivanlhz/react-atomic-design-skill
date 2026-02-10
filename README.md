@@ -1,5 +1,7 @@
 # Atomic Design Skill
 
+![Atomic Design Skill banner](assets/atomic-design-skill-banner.png)
+
 **Author:** Iván López Hdez · [ivanlopezdev.es](https://ivanlopezdev.es) · [@ivanlhz](https://github.com/ivanlhz)
 
 React component architecture guide following Atomic Design principles. Use it in **any** React project (Vite, Next.js, CRA, Remix, Astro, etc.).
